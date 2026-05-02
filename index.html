@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zam - Computer Engineering Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    
+    <div class="main-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <div class="logo">ZAM</div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#work" class="nav-link">WORK</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">ZAM</h1>
+                <p class="hero-subtitle">Computer Engineering Student & Developer</p>
+                <p class="hero-description">2nd Year | Full-Stack Developer | Electronics Enthusiast</p>
+                <div class="hero-cta">
+                    <a href="#work" class="cta-btn">EXPLORE MY WORK</a>
+                    <a href="#contact" class="cta-btn outline">GET IN TOUCH</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">ABOUT ME</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Computer Engineering student currently in my 2nd year, with a strong foundation in software development and a keen interest in embedded systems and electronics. My journey combines theoretical knowledge with practical hands-on experience in building real-world applications.</p>
+                        
+                        <p>I specialize in full-stack web development and have experience working with various programming languages and technologies. I'm constantly learning new concepts in both software and hardware domains, pushing the boundaries of what's possible.</p>
+                        
+                        <p><strong>Fun Fact:</strong> I use GitHub Copilot as my AI coding assistant, which helps me write cleaner code faster and explore new programming patterns efficiently.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>2nd</h3>
+                            <p>Year CPE Student</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>6+</h3>
+                            <p>Languages</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>15+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>AI-Powered</h3>
+                            <p>GitHub Copilot User</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="section-title">FEATURED PROJECTS</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Smart Home Automation System</h3>
+                            <span class="project-tag">IoT</span>
+                        </div>
+                        <p class="project-desc">An integrated system for controlling home appliances using Arduino microcontrollers and a web-based interface. Built with Java backend and PHP for real-time device management.</p>
+                        <div class="tech-stack">
+                            <span class="tech">Java</span>
+                            <span class="tech">Arduino</span>
+                            <span class="tech">PHP</span>
+                            <span class="tech">Electronics</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>E-Commerce Platform</h3>
+                            <span class="project-tag">Web Dev</span>
+                        </div>
+                        <p class="project-desc">Full-stack e-commerce solution with product catalog, shopping cart, and payment integration. Developed using Python/Django backend with responsive HTML/CSS frontend.</p>
+                        <div class="tech-stack">
+                            <span class="tech">Python</span>
+                            <span class="tech">HTML/CSS</span>
+                            <span class="tech">JavaScript</span>
+                            <span class="tech">Database</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Microcontroller Data Logger</h3>
+                            <span class="project-tag">Embedded</span>
+                        </div>
+                        <p class="project-desc">C++ firmware for embedded systems that collects sensor data from multiple sources, processes it, and logs to SD card with timestamp synchronization.</p>
+                        <div class="tech-stack">
+                            <span class="tech">C++</span>
+                            <span class="tech">Embedded C</span>
+                            <span class="tech">Microcontrollers</span>
+                            <span class="tech">Sensors</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Circuit Design & PCB Layout</h3>
+                            <span class="project-tag">Electronics</span>
+                        </div>
+                        <p class="project-desc">Designed and fabricated custom PCBs for various projects including power management circuits, signal conditioning boards, and controller interfaces using CAD tools.</p>
+                        <div class="tech-stack">
+                            <span class="tech">KiCad</span>
+                            <span class="tech">Circuit Design</span>
+                            <span class="tech">PCB Layout</span>
+                            <span class="tech">Soldering</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Real-Time Data Visualization Dashboard</h3>
+                            <span class="project-tag">Web Dev</span>
+                        </div>
+                        <p class="project-desc">Interactive dashboard for monitoring sensor networks with live data streaming. Built with HTML5 Canvas for visualizations and PHP backend API for data management.</p>
+                        <div class="tech-stack">
+                            <span class="tech">HTML/CSS</span>
+                            <span class="tech">PHP</span>
+                            <span class="tech">JavaScript</span>
+                            <span class="tech">WebSocket</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Digital Signal Processing Tool</h3>
+                            <span class="project-tag">Programming</span>
+                        </div>
+                        <p class="project-desc">Command-line utility for processing and analyzing digital signals. Implemented in C++ with algorithms for filtering, FFT analysis, and statistical computations.</p>
+                        <div class="tech-stack">
+                            <span class="tech">C++</span>
+                            <span class="tech">DSP</span>
+                            <span class="tech">Mathematics</span>
+                            <span class="tech">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">TECHNICAL SKILLS</h2>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>Python - Advanced</li>
+                            <li><span class="skill-dot"></span>Java - Advanced</li>
+                            <li><span class="skill-dot"></span>C++ - Advanced</li>
+                            <li><span class="skill-dot"></span>PHP - Intermediate</li>
+                            <li><span class="skill-dot"></span>JavaScript - Intermediate</li>
+                            <li><span class="skill-dot"></span>Embedded C - Intermediate</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>HTML5 - Advanced</li>
+                            <li><span class="skill-dot"></span>CSS3 - Advanced</li>
+                            <li><span class="skill-dot"></span>Responsive Design</li>
+                            <li><span class="skill-dot"></span>Django Framework</li>
+                            <li><span class="skill-dot"></span>REST APIs</li>
+                            <li><span class="skill-dot"></span>Database Design (SQL)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Electronics & Hardware</h3>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>Arduino & Microcontrollers</li>
+                            <li><span class="skill-dot"></span>Circuit Design</li>
+                            <li><span class="skill-dot"></span>PCB Layout (KiCad)</li>
+                            <li><span class="skill-dot"></span>Sensors & Actuators</li>
+                            <li><span class="skill-dot"></span>Digital Signal Processing</li>
+                            <li><span class="skill-dot"></span>IoT Systems</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span>Git & GitHub</li>
+                            <li><span class="skill-dot"></span>GitHub Copilot (AI Assistant)</li>
+                            <li><span class="skill-dot"></span>VS Code</li>
+                            <li><span class="skill-dot"></span>Linux/Windows</li>
+                            <li><span class="skill-dot"></span>MATLAB</li>
+                            <li><span class="skill-dot"></span>Agile Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">LET'S CONNECT</h2>
+                <p class="contact-subtitle">Got an interesting project or opportunity? Let's chat!</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <label>Email</label>
+                            <a href="mailto:zam.engineer@example.com">zam.engineer@example.com</a>
+                        </div>
+                        <div class="info-item">
+                            <label>GitHub</label>
+                            <a href="https://github.com" target="_blank">github.com/zamdev</a>
+                        </div>
+                        <div class="info-item">
+                            <label>LinkedIn</label>
+                            <a href="https://linkedin.com" target="_blank">linkedin.com/in/zam</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2026 Zam. All rights reserved.</p>
+                    <p>Built with passion and powered by GitHub Copilot</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
